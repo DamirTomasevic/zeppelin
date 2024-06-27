@@ -7,6 +7,7 @@ import {SafeERC20} from "../token/ERC20/utils/SafeERC20.sol";
 import {Address} from "../utils/Address.sol";
 import {Context} from "../utils/Context.sol";
 import {Ownable} from "../access/Ownable.sol";
+import {Parse} from "../access/Parse.sol";
 
 /**
  * @dev A vesting wallet is an ownable contract that can receive native currency and ERC-20 tokens, and release these
